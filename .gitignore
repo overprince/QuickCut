@@ -3,7 +3,8 @@
 *.exe
 __pycache__
 dist*
-misc*
+QuickCut/misc/*.png
+QuickCut/misc/*.afphoto
 build*
 fileList.txt
 TEMP*
@@ -14,3 +15,11 @@ out
 test.py
 README.html
 *.7z
+*.mp4
+*.mkv
+*.wav
+.DS_Store
+.idea
+*build
+*dist
+*info

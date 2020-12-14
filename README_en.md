@@ -1,14 +1,33 @@
-## About Translation
-
-**[English Mannual](./README_en.md)** 
-
-**Developer**: My home language is Chinese, so the original UI is in Chinese, if you want to help translating this software, you can open the **[./QuickCut/languages/README.md](./QuickCut/languages/README.md)** to check out how you can help. 
-
-
-
 #  <img src="QuickCut/icon.ico" alt="icon.ico" style="zoom: 25%;" /> Quick Cut
 
-**Quick Cut** 是一款轻量、强大、好用的视频处理软件。它是一个轻量的工具，而不是像 Davinci Resolve、Adobe Premiere 那样专业的、复杂的庞然大物。Quick Cut 可以满足普通人一般的视频处理需求：压缩视频、转码视频、倒放视频、合并片段、根据字幕裁切片段、自动配字幕、自动剪辑……
+**Quick Cut** is a light yet powerful and handy video processing software. Unlike professional an huge giants such as **Davinci Resolve** or **Premiere Pro**, **Quick Cut** is just a light tool that can satisfy the need of simply processing videos such as: 
+
+- compress a video
+- transcode a video
+- revert a video
+- concat clips
+- auto split a video by corresponding subtitle file
+- auto edit (remove silence clips)
+- download a video from YouTube
+- ...
+
+Gitee：https://gitee.com/haujet/QuickCut
+
+GitHub：https://github.com/HaujetZhao/QuickCut
+
+
+
+## About Translation
+
+**Developer**: My home language is Chinese so the original UI is in Chinese, if you want to help translating this software, you can open the **[./QuickCut/languages/README.md](./QuickCut/languages/README.md)** to check out how you can help. 
+
+## How to change language
+
+The first time you open Quick Cut, the UI should be language. If you are non-Chinese user, here is how to switch English UI: 
+
+<img src="assets/image-20200801204028907.png" alt="image-20200801204028907" style="zoom: 50%;" />
+
+After the two steps above, a pop-up will show, says you need to relaunch Quick Cut. Just do it, and then you will have the English UI. 
 
 Quick Cut 开源的，你可以免费使用它，但正因为开源，因此插入恶意代码是很容易的事，所以请认准仓库发行页面的下载地址：
 
@@ -27,11 +46,7 @@ Quick Cut 开源的，你可以免费使用它，但正因为开源，因此插�
 
 界面预览：
 
-<img src="assets/image-20200726203040942.png" alt="image-20200726203040942" style="zoom:50%;" />
-
-
-
-
+<img src="assets/image-20200801204230301.png" alt="image-20200801204230301" style="zoom:50%;" />
 
 ## 📝 背景
 
@@ -53,7 +68,7 @@ Quick Cut 开源的，你可以免费使用它，但正因为开源，因此插�
 
 用的最好的还是 **格式工厂** 和 **小丸工具箱** 。但他们都功能很少，还有小丸工具箱，官网的下载地址是百度网盘链接已经挂了，也不知道从第三方下载的版本有没有木马、广告……
 
-后来，从视频压制这个话题，我知道了 **FFmpeg** 这个神级开源工具，它的功能之强大、应用之广泛到惊掉了我的下巴！但它是个命令行工具，到百度上一搜，也只是些文章说怎样怎样的命令可以做什么、常用命令有什么。相关的图形界面工具，一个好用的都没有！（当然要点名表扬下 Lossless Cut，它还是很好用的，只是功能太少）。没有一个软件能让 FFmpeg 在普通大众用户手中发挥潜力，真是可惜了！
+后来，从视频压制这个话题，我知道了 **FFmpeg** 这个神级开源工具，它的功能之强大、应用之广泛到惊了我的下巴！但它是个命令行工具，到百度上一搜，也只是些文章说怎样怎样的命令可以做什么、常用命令有什么。相关的图形界面工具，一个好用的都没有！（当然要点名表扬下 Lossless Cut，它还是很好用的，只是功能太少）。没有一个软件能让 FFmpeg 在普通大众用户手中发挥潜力，真是可惜了！
 
 于是一通操作，把 FFmpeg 的官方文档逐句做了翻译，记了笔记，然后用它来处理视频，真是畅快！免费、无广告，剪出来的视频也可以画质无损。100 兆的视频压缩到 10 兆，肉眼画质无损，那是一个巴适！
 
@@ -64,13 +79,13 @@ Quick Cut 开源的，你可以免费使用它，但正因为开源，因此插�
 当然，除了 **FFmpeg** 的功能外，我还做了 **语音自动转字幕** 功能。这里，我要不指名地 Diss 一些商家：
 
 - 首先是价格，贵的要 1元/分钟，便宜些的也要 4毛/分钟！转个 20 分钟的视频，就要收我 8 元，抢钱呐！啊？你们是没有语音引擎的，都是用的 API，大批量采购，你们用的 API 价格也就 1.2 元/小时 左右吧！用 API 成本几十倍的价格提供服务，这吃相，真是难看。
-- 然后是上传视频。语音转字幕，上传音频便足够了，一些商家却需要上传完整视频！2GB 的视频，通常其音频只有几十 MB 左右。你们是觉得：用户见转写了几十 MB 的视频，会觉得这么小的文件，1元/分钟的价格不值，转写了 2GB 的视频，一看这转写体积，就觉得花钱花的值？
+- 然后是上传视频。语音转字幕，上传音频便足以，一些商家却需要上传完整视频！2GB 的视频，通常其音频只有几十 MB 左右。你们是你们觉得：用户见转写了几十 MB 的视频，会觉得这么小的文件，1元/分钟的价格不值，转写了 2GB 的视频，一看这转写体积，就觉得花钱花的值？
 
 在 Quick Cut 里，我做了 **语音自动转字幕** 功能，可以使用阿里或腾讯的 Api。就以阿里的 API 为例，普通元套餐的商用价格是 2.5 元/小时，四十五几乎就是不要钱！下面的帮助里，我写下了申请阿里 API 的教程，只要填入 API，就可以使用语音转字幕了。
 
 另外，我还将另一个 **自动剪辑神器** 放进了 Quick Cut，将你的 Vlog、视频教程一键自动剪好。下面会有详细介绍。
 
-同时，推荐 Quick Cut 中一个对学习外语的同学非常有用的功能：**将字幕中的每一句话对应的视频剪成片段提取出来**。用于制作外语学习的视频素材爽得不要不要的！应该算是 **Anki** 用户的一个福利功能吧！
+同时，推荐 Quick Cut 中一个对学习外语的同学非常有用的功能：**将字幕中的每一句话对应的视频剪成片段提取出来**。用于制作外语学习的视频素材爽的不要不要的！应该算是 **Anki** 用户的一个福利功能吧！
 
 
 
@@ -191,7 +206,7 @@ Quick Cut 开源的，你可以免费使用它，但正因为开源，因此插�
 
 在设置界面你就可以在这里配置语音识别的引擎。
 
-勾选上 **点击关闭按钮时隐藏到托盘** ，就可以让软件常驻到后台，方便快捷的调出来剪辑视频、语音输入。Quick Cut 的资源占用量非常少，可以放心地放到后台，不影响性能。
+勾选上 **点击关闭按钮时隐藏到托盘** ，就可以让软件常驻到后台，方便快捷的调出来剪辑视频、语音输入。Quick Cut 的资源占用量非常少，可以放心的放到后台，不影响性能。
 
 [点击去查看 Quick Cut 配置阿里云语音识别引擎的视频教程](https://www.bilibili.com/video/BV18T4y1E7FF?p=9)
 
@@ -199,7 +214,7 @@ Quick Cut 开源的，你可以免费使用它，但正因为开源，因此插�
 
 ### 帮助界面
 
-在帮助界面里，有如下按钮，见名知意：
+在帮助见面里，有如下按钮，见名知意：
 
 <img src="assets/image-20200725102850979.png" alt="image-20200725102850979" style="zoom:40%;" />
 
@@ -228,29 +243,15 @@ cos-python-sdk-v5
 tencentcloud-sdk-python
 oss2
 pyaudio
-auditok @ git+https://github.com/amsehili/auditok@v0.1.8
-requests
 ```
 
-其中，pyaudio 很难安装！编译成功有很多要求。所以 Windows 用户可以直接到 [这里](https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio) 下载已经被志愿者编译好的 whl 包，用 pip 安装，注意下载对应你 python 版本的包。
+其中，pyaudio 很难安装！编译成功有很多要求。所以我们可以直接到 [这里](https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio) 下载上它已经被志愿者编译好的 whl 包，用 pip 安装，注意下载对应你 python 版本的包。
 
-Linux 的用户，经 @**[shniubobo](https://github.com/shniubobo)** 的测试，Ubuntu 用户在安装 pyaudio 前只要装这个就行了：
-
-```
-sudo apt install portaudio19-dev
-```
-
-
-
-其他包可以通过[requirements.txt](requirements.txt)安装：
-
-```
-pip install -r requirements.txt
-```
+另外，还需要安装  `auditok` ，但你不能使用 `pip install auditok`，因为这会下载到 0.1.5 版本（2016年更新）的，你需要使用 `pip install git+https://github.com/amsehili/auditok` 安装最新的 0.1.8 版本（2018年更新）。详情可查看 [Github of Auditok](https://github.com/amsehili/auditok) 
 
 #### 阿里云语音识别 sdk
 
-然后还需要安装阿里云语音识别引擎的sdk， [这篇阿里云官方文档](https://help.aliyun.com/document_detail/120693.html?spm=a2c4g.11186623.6.569.27675df0FENQ6O) 只说了用下面的方法安装：
+然后还需要安装阿里云语音识别引擎的 sdk，这个 sdk 是无法通过 pip 安装的，而是要通过 [这篇阿里云官方文档](https://help.aliyun.com/document_detail/120693.html?spm=a2c4g.11186623.6.569.27675df0FENQ6O) 的方法进行安装：
 
 ```
 pip install setuptools
@@ -261,18 +262,6 @@ pip install setuptools
 ```
  # 打包 python setup.py bdist_egg # 安装 python setup.py install
 ```
-
-不过有用户反馈可以用下面这个命令直接安装，不过我还没试验：
-
-```
-pip install aliyun-python-sdk-nls-cloud-meta
-```
-
-
-
-
-
-
 
 
 
@@ -406,26 +395,17 @@ pyinstaller --hidden-import pkg_resources.py2_warn --noconfirm -w -i icon.ico Qu
 pyinstaller --hidden-import pkg_resources.py2_warn --noconfirm -w -i icon.icns QuickCut.py
 ```
 
-其中，`--hide-import pkg_resources.py2_warn` 这一句比较重要，其实整个软件用到了这个模块，但是 pyinstaller 没有自动编译进去。当你电脑上的 setuptools 版本在 45.0.0 到 49.1.1 之间时，会出现这个问题。将 setuptools 升级到最新，应该就不会有这个问题了：
-
-```python
-pip install pyinstaller
-pip install setuptools --upgrade
-pyinstaller -wy -i icon.ico QuickCut.py  # Windows 用户用这个
-pyinstaller -wy -i icon.icns QuickCut.py # 为了图标格式兼容，Mac 用户请用这个
-```
-
-
+其中，`--hide-import pkg_resources.py2_warn` 这一句比较重要，其实整个软件并没有用到这个模块，但是 pyinstaller 他会自动的编译进去，可是电脑上又没有安装这个模块，最后编译出来的软件就无法运行，所以一定要加上这个选项。
 
 ### 编译后打包后要做的事
 
-编译完成后，还有几个事要做，首先，下载对应系统的 [ffmpeg 和 ffprobe](http://ffmpeg.org/download.html) 放到编译根目录，再把本 `README.md` 导出成 `README.html` ，同 `icon.ico`、`sponsor.jpg`、`languages` 一起放入编译根目录（Mac 用户放 `icon.icns`），再下载对应系统的 [annie](https://github.com/iawia002/annie/releases) 放入编译根目录。
+编译完成后，还有几个事要做，首先，下载对应系统的 [ffmpeg 和 ffprobe](http://ffmpeg.org/download.html) 放到编译根目录，再把本 README.md 导出成 README.html ，同 icon.ico、sponsor.jpg 一起放入编译根目录，再下载对应系统的 [annie](https://github.com/iawia002/annie/releases) 放入编译根目录。
 
 如果是 Mac 、Linux 打包的，那一定要给编译目录下的可执行文件用 `chmod +x` 授予可执行权限！
 
 然后就可以打包了，Windows 下可以打包成 `7z` 格式，Mac、Linux 用户不要打包` zip`、`7z` 格式！因为这会让可执行文件的权限消失！Mac、Linux 用户可以用 `tar.gz` 或者 `dmg` 格式打包。
 
-建议打包后的命名成类似 `QuickCut_Mac_v1.2.0_pyinstaller.dmg` 这样的。如果你是志愿者，为这个项目打包，你也可以在命名后面加上你的 id 等信息。
+建议打包后的命名成类似 `QuickCut_Mac_v1.2.0_compiled_by_pyinstaller.dmg` 这样的。如果你是志愿者，为这个项目打包，你也可以在命名后面加上你的 id 等信息。
 
 在发包的时候，建议上传到蓝奏云、天翼云，新建一个文件夹，将包放到这个文件夹里，再把这个文件夹的分享链接发出来，这样，以后要更新的话，只要把新版本放到那个文件夹，分享链接就不用变了。
 
